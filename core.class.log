@@ -1,0 +1,434 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '36816560328782@lid',
+    fromMe: false,
+    id: 'A5A70A20765CDE64757A0271B2474FB0',
+    participant: undefined
+  },
+  messageTimestamp: 1766445506,
+  pushName: 'Jaleman',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '36816560328782',
+  originalRemoteJid: '36816560328782@lid'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4204e436-608c-4f26-81cf-9546174e6930',
+  keyword: 'key_cec2d5af-9041-4a0e-8d3a-d7ee0f076d8f',
+  answer: '👋 *Hola! Bienvenido a nuestro servicio*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7b9cec05171e89e248c8179916bb5b7c'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cf769d18-c784-434d-90c1-7a8bcead00b5',
+  keyword: 'ans_4204e436-608c-4f26-81cf-9546174e6930',
+  answer: 'Por favor selecciona una opcion:\n' +
+    '\n' +
+    '*1.* 📋 Generar cotizaciones\n' +
+    '*2.* 🛒 Consultar productos\n' +
+    '\n' +
+    '_Escribe el numero de la opcion que deseas_',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6f3c399080a1c11080594a1553dd7724'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '36816560328782@lid',
+    fromMe: false,
+    id: 'A55F3F022C449A0FF3FF2A860B9E8376',
+    participant: undefined
+  },
+  messageTimestamp: 1766445522,
+  pushName: 'Jaleman',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '1',
+  from: '36816560328782',
+  originalRemoteJid: '36816560328782@lid'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3e6dccd3-5f5e-4f50-835a-5b013f723559',
+  keyword: 'key_c6ab5c64-36b4-445e-bdcd-d2949705119f',
+  answer: '📋 *GENERAR COTIZACION*\n' +
+    '\n' +
+    '📎 Envia tu archivo (Excel, PDF o Imagen) con el listado de medicamentos',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8da1673df1d2e637f380035d35f46296'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '36816560328782@lid',
+    fromMe: false,
+    id: 'A5EF9B12E7A686F4638F8533ACADE34B',
+    participant: undefined
+  },
+  messageTimestamp: 1766445538,
+  pushName: 'Jaleman',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/554058440_860376206924997_4533814853074366351_n.enc?ccb=11-4&oh=01_Q5Aa3QFnhqY-dEPhdaAAPsfxGpN5ux9lzcM0G_AUGxNzLZLEtg&oe=69715D74&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'application/pdf',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 2,
+      mediaKey: [Uint8Array],
+      fileName: 'ad09000985500072503592001.pdf',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/554058440_860376206924997_4533814853074366351_n.enc?ccb=11-4&oh=01_Q5Aa3QFnhqY-dEPhdaAAPsfxGpN5ux9lzcM0G_AUGxNzLZLEtg&oe=69715D74&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/555763856_900385825746963_4309310744796270170_n.enc?ccb=11-4&oh=01_Q5Aa3QHVkwGM8a0E58yDLE46dXtPzeK32wIChWViBOMbvTPBdw&oe=69712A2F&_nc_sid=5e03e0',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      thumbnailHeight: 480,
+      thumbnailWidth: 342
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_document__8581af6b-f1dc-420a-a5f9-101e9fc6aa8d',
+  from: '36816560328782',
+  originalRemoteJid: '36816560328782@lid'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4f209fe7-9f69-4f9a-ac05-e5a7e901ce57',
+  keyword: 'key_8be0fc0a-0fc9-400d-b6de-e017c50fcc51',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '16aa4512bb5efc0818e8b73a875f9c75'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '36816560328782@lid',
+    fromMe: false,
+    id: 'A54CB92FD8AA808BAD9AE0B4C66A076A',
+    participant: undefined
+  },
+  messageTimestamp: 1766445735,
+  pushName: 'Jaleman',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '36816560328782',
+  originalRemoteJid: '36816560328782@lid'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4204e436-608c-4f26-81cf-9546174e6930',
+  keyword: 'key_cec2d5af-9041-4a0e-8d3a-d7ee0f076d8f',
+  answer: '👋 *Hola! Bienvenido a nuestro servicio*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7b9cec05171e89e248c8179916bb5b7c'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_cf769d18-c784-434d-90c1-7a8bcead00b5',
+  keyword: 'ans_4204e436-608c-4f26-81cf-9546174e6930',
+  answer: 'Por favor selecciona una opcion:\n' +
+    '\n' +
+    '*1.* 📋 Generar cotizaciones\n' +
+    '*2.* 🛒 Consultar productos\n' +
+    '\n' +
+    '_Escribe el numero de la opcion que deseas_',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6f3c399080a1c11080594a1553dd7724'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '246140431773764@lid',
+    fromMe: false,
+    id: 'ACE3DE46AC3BDAF77247BC29A1927603',
+    participant: undefined
+  },
+  messageTimestamp: 1766445758,
+  pushName: 'Edwin Gamboa🥸😎',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '.',
+      previewType: 0,
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '.',
+  from: '246140431773764',
+  originalRemoteJid: '246140431773764@lid'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '246140431773764@lid',
+    fromMe: false,
+    id: 'AC2C27498AAD3FF1D75A730441FCA361',
+    participant: undefined
+  },
+  messageTimestamp: 1766445791,
+  pushName: 'Edwin Gamboa🥸😎',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/555122891_1771645413505894_4310000326630420495_n.enc?ccb=11-4&oh=01_Q5Aa3QFibq0MFNZTy_t2GQy5VC2S6B2iZX0nbhEMMOQw_UqurQ&oe=697134CA&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'application/pdf',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 0,
+      mediaKey: [Uint8Array],
+      fileName: 'ZD-633690_1.PDF',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/555122891_1771645413505894_4310000326630420495_n.enc?ccb=11-4&oh=01_Q5Aa3QFibq0MFNZTy_t2GQy5VC2S6B2iZX0nbhEMMOQw_UqurQ&oe=697134CA&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/561682129_1495724924820820_3383728696946174101_n.enc?ccb=11-4&oh=01_Q5Aa3QGwF7_87avoM5D9SPInSSrGTWuxaZmVank19ggund1A9Q&oe=6971522C&_nc_sid=5e03e0',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 480,
+      thumbnailWidth: 369
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_document__22ddddb3-6e04-4ef3-84cb-16596f49aebf',
+  from: '246140431773764',
+  originalRemoteJid: '246140431773764@lid'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '246140431773764@lid',
+    fromMe: false,
+    id: 'ACE72371A6EDFA37F2CDC893050045AD',
+    participant: undefined
+  },
+  messageTimestamp: 1766445792,
+  pushName: 'Edwin Gamboa🥸😎',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 7776000,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '246140431773764',
+  originalRemoteJid: '246140431773764@lid'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4f209fe7-9f69-4f9a-ac05-e5a7e901ce57',
+  keyword: 'key_8be0fc0a-0fc9-400d-b6de-e017c50fcc51',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '16aa4512bb5efc0818e8b73a875f9c75'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '246140431773764@lid',
+    fromMe: false,
+    id: 'AC2DC5C8730AD1CFFB53657F25018E1C',
+    participant: undefined
+  },
+  messageTimestamp: 1766446082,
+  pushName: 'Edwin Gamboa🥸😎',
+  broadcast: false,
+  message: Message {
+    documentMessage: DocumentMessage {
+      url: 'https://mmg.whatsapp.net/v/t62.7119-24/559735652_908930195129151_6915569958184879849_n.enc?ccb=11-4&oh=01_Q5Aa3QHcC40inChP0QdBRYGSIzmF8A93OaI6Uq4nf_Ac8LSjTg&oe=69714A9A&_nc_sid=5e03e0&mms3=true',
+      mimetype: 'application/pdf',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      pageCount: 0,
+      mediaKey: [Uint8Array],
+      fileName: 'ZD-620695_1.PDF',
+      fileEncSha256: [Uint8Array],
+      directPath: '/v/t62.7119-24/559735652_908930195129151_6915569958184879849_n.enc?ccb=11-4&oh=01_Q5Aa3QHcC40inChP0QdBRYGSIzmF8A93OaI6Uq4nf_Ac8LSjTg&oe=69714A9A&_nc_sid=5e03e0',
+      mediaKeyTimestamp: [Long],
+      thumbnailDirectPath: '/v/t62.36145-24/603899548_2090900038114586_4074642712160505123_n.enc?ccb=11-4&oh=01_Q5Aa3QFD-sG4I4he3iJ6M4-ZCbbYMJFz7s6PNnyoTN3N2PA2iQ&oe=69713A7B&_nc_sid=5e03e0',
+      thumbnailSha256: [Uint8Array],
+      thumbnailEncSha256: [Uint8Array],
+      jpegThumbnail: [Uint8Array],
+      contextInfo: [ContextInfo],
+      thumbnailHeight: 480,
+      thumbnailWidth: 369
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '_event_document__b6a6bec5-a18b-40bd-9a6d-a744be31fe3e',
+  from: '246140431773764',
+  originalRemoteJid: '246140431773764@lid'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '246140431773764@lid',
+    fromMe: false,
+    id: 'ACDF6F67ED8F02543378F101B0D5F6B4',
+    participant: undefined
+  },
+  messageTimestamp: 1766446083,
+  pushName: 'Edwin Gamboa🥸😎',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 7776000,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '246140431773764',
+  originalRemoteJid: '246140431773764@lid'
+}
+[ERROR ID (90791c6e-2476-4b3a-82d2-bccb3d231698)]:  Error: Connection Closed
+    at sendRawMessage (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:54:19)
+    at sendNode (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:73:16)
+    at query (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:137:15)
+    at getUSyncDevices (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:166:30)
+    at /Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:357:53
+    at Object.transaction (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@whiskeysockets/baileys/lib/Utils/auth-utils.js:136:32)
+    at relayMessage (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:279:30)
+    at Object.sendMessage (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:652:23)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processTimers (node:internal/timers:516:9)
+    at async CoreClass.sendProviderAndSave (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@bot-whatsapp/bot/lib/bundle.bot.cjs:1561:21)
+    at async /Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@bot-whatsapp/bot/lib/bundle.bot.cjs:1371:21
+    at async Object.ans_4f209fe7-9f69-4f9a-ac05-e5a7e901ce57 (/Users/usuario/Documents/whatbot/base-baileys-json/src/flows/cotizaciones.flow.js:35:13)
+    at async runContext (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@bot-whatsapp/bot/lib/bundle.bot.cjs:1444:17)
+    at async cbEveryCtx (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@bot-whatsapp/bot/lib/bundle.bot.cjs:1471:13)
+    at async resolveCbEveryCtx (/Users/usuario/Documents/whatbot/base-baileys-json/node_modules/@bot-whatsapp/bot/lib/bundle.bot.cjs:1401:29) {
+  data: null,
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 428,
+    payload: {
+      statusCode: 428,
+      error: 'Precondition Required',
+      message: 'Connection Closed'
+    },
+    headers: {}
+  }
+}

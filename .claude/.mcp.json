@@ -1,0 +1,15 @@
+{
+  "$comment": "MCPs sin plugin oficial. Para context7/playwright/linear usa: /plugin install {name}@claude-plugin-directory",
+  "mcpServers": {
+    "mobile-mcp": {
+      "command": "npx",
+      "args": ["-y", "@mobilenext/mobile-mcp@latest"],
+      "$description": "Mobile automation, UI debugging, accessibility trees (iOS/Android)"
+    },
+    "maestro": {
+      "command": "maestro",
+      "args": ["mcp"],
+      "$description": "Mobile E2E testing, YAML flows, AI assertions"
+    }
+  }
+}

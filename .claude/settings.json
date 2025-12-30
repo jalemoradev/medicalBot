@@ -1,0 +1,86 @@
+{
+  "cleanupPeriodDays": 30,
+  "enabledMcpjsonServers": [],
+  "disabledMcpjsonServers": [],
+  "includeCoAuthoredBy": false,
+
+  "env": {
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "64000",
+    "MAX_THINKING_TOKENS": "31999",
+    "SLASH_COMMAND_TOOL_CHAR_BUDGET": "30000"
+  },
+
+  "permissions": {
+    "defaultMode": "plan",
+    "additionalDirectories": [],
+
+    "allow": [
+      "Read(**)",
+      "Edit(**)",
+      "MultiEdit(**)",
+      "Write(**)",
+      "Glob(**)",
+      "Grep(**)",
+      "LS(**)",
+      "NotebookRead(**)",
+      "NotebookEdit(**)",
+
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+
+      "Bash(npm ci)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run test:*)",
+      "Bash(yarn :*)",
+      "Bash(pnpm :*)",
+
+      "Bash(python -m venv :*)",
+      "Bash(pip install :*)",
+      "Bash(node :*)",
+
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:github.com)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git rebase:*)",
+      "Bash(git reset --hard:*)",
+
+      "Bash(docker :*)",
+      "Bash(kubectl :*)",
+      "Bash(aws :*)",
+      "Bash(gcloud :*)",
+      "Bash(az :*)",
+      "Bash(terraform :*)",
+      "Bash(systemctl :*)"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf :*)",
+      "Bash(rm -rf ~/*)",
+      "Bash(sudo:*)",
+      "Bash(chown:*)",
+      "Bash(chmod -R 777:*)",
+      "Bash(dd if=:*)",
+      "Bash(mkfs:*)",
+      "Bash(diskutil :*)",
+      "Bash(shutdown:*)",
+      "Bash(reboot:*)",
+
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Write(./.env)",
+      "Write(./.env.*)",
+      "Write(./secrets/**)"
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": ".claude/statusline.sh",
+    "padding": 0
+  }
+}
