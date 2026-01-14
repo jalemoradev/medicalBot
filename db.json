@@ -1,16 +1,16 @@
 [
   {
-    "ref": "20f59f6f-bda6-4ec5-bbce-cfbbbb25968a",
-    "keyword": "44eafb6c4a9caa29b260623c0688ad52",
+    "ref": "2cfe0456-1826-40e3-8af1-786fb54fdba0",
+    "keyword": "290236b1d481a790a200ea6e94b2122a",
     "answer": "Hola",
     "options": {},
     "from": "36816560328782",
     "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
   },
   {
-    "ref": "ans_4204e436-608c-4f26-81cf-9546174e6930",
-    "keyword": "key_cec2d5af-9041-4a0e-8d3a-d7ee0f076d8f",
-    "answer": "👋 *Hola! Bienvenido a nuestro servicio*",
+    "ref": "ans_e5d89b45-738c-42d9-b2af-b21a234b2ff0",
+    "keyword": "key_57f9524f-8f4f-4520-988b-d58cf028cb32",
+    "answer": "*Generador de Cotizaciones*\n\nEnvia un archivo (PDF o imagen) con la lista de medicamentos.\n\nFormatos soportados:\n- PDF\n- Imagen (JPG, PNG)\n\n_Esperando archivo..._",
     "options": {
       "media": null,
       "buttons": [],
@@ -23,13 +23,21 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "7b9cec05171e89e248c8179916bb5b7c",
+    "refSerialize": "98d0552b78134973a1e8e2fec4407a6e",
     "from": "36816560328782"
   },
   {
-    "ref": "ans_cf769d18-c784-434d-90c1-7a8bcead00b5",
-    "keyword": "ans_4204e436-608c-4f26-81cf-9546174e6930",
-    "answer": "Por favor selecciona una opcion:\n\n*1.* 📋 Generar cotizaciones\n*2.* 🛒 Consultar productos\n\n_Escribe el numero de la opcion que deseas_",
+    "ref": "9480eaff-ccc0-4809-916f-d9f065f4609f",
+    "keyword": "98d0552b78134973a1e8e2fec4407a6e",
+    "answer": "_event_document__fc264580-4e81-4b49-a9fe-b50c7552fb28",
+    "options": {},
+    "from": "36816560328782",
+    "refSerialize": "4729c1d708ed939d50d2327626f0d9c0"
+  },
+  {
+    "ref": "ans_72460df0-c537-4b9c-b662-116a1b091ee5",
+    "keyword": "key_89efd2eb-9fbe-4d2b-9741-31e538dd34bc",
+    "answer": "__call_action__",
     "options": {
       "media": null,
       "buttons": [],
@@ -38,134 +46,134 @@
       "delay": 0,
       "idle": null,
       "ref": null,
-      "nested": [
-        {
-          "ref": "key_c6ab5c64-36b4-445e-bdcd-d2949705119f",
-          "keyword": [
-            "1",
-            "cotizacion",
-            "cotizaciones",
-            "cotizar"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "3530de872562ee77ea8afdde6895ff96"
-        },
-        {
-          "ref": "ans_3e6dccd3-5f5e-4f50-835a-5b013f723559",
-          "keyword": "key_c6ab5c64-36b4-445e-bdcd-d2949705119f",
-          "answer": "📋 *GENERAR COTIZACION*\n\n📎 Envia tu archivo (Excel, PDF o Imagen) con el listado de medicamentos",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "8da1673df1d2e637f380035d35f46296"
-        },
-        {
-          "ref": "key_69a53881-a3da-415a-8693-c62618a32ed4",
-          "keyword": [
-            "2",
-            "productos",
-            "producto",
-            "catalogo"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "792cfab522c889fc0fc86412ca0176b4"
-        },
-        {
-          "ref": "ans_f3a8dc25-3b14-47ab-9611-ac593450699b",
-          "keyword": "key_69a53881-a3da-415a-8693-c62618a32ed4",
-          "answer": "🛒 *CONSULTA DE PRODUCTOS*",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "46f6e915313cacf321b3c33a5230b395"
-        },
-        {
-          "ref": "ans_3c569693-c35c-4607-9fc4-27f1adc0ec10",
-          "keyword": "ans_f3a8dc25-3b14-47ab-9611-ac593450699b",
-          "answer": "Estos son nuestros productos disponibles:\n\n📦 *Categoria A*\n   - Producto 1 - $100\n   - Producto 2 - $150\n   - Producto 3 - $200\n\n📦 *Categoria B*\n   - Producto 4 - $250\n   - Producto 5 - $300\n   - Producto 6 - $350\n\n📦 *Categoria C*\n   - Producto 7 - $400\n   - Producto 8 - $450\n   - Producto 9 - $500\n\n---\nEscribe el *nombre del producto* para mas informacion\no escribe *hola* para volver al menu principal.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "5c839d5a106e24e0866854a4565bfcb7"
-        }
-      ],
+      "nested": [],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "6f3c399080a1c11080594a1553dd7724",
+    "refSerialize": "59c4764c70b697e2569c355347e1e458",
     "from": "36816560328782"
   },
   {
-    "ref": "6473101e-8312-4604-a43a-c03b9745f359",
-    "keyword": "6f3c399080a1c11080594a1553dd7724",
+    "ref": "7e65fb2c-5a9d-4349-9db7-729e09b4af72",
+    "keyword": null,
+    "answer": "Procesando documento...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "36816560328782",
+    "refSerialize": "44794aacf58dde4fb451d2e271900178"
+  },
+  {
+    "ref": "d255bd9d-9edb-4b5f-951f-ac859338f08b",
+    "keyword": null,
+    "answer": "Documento tiene *2* página(s). Extrayendo página por página...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "36816560328782",
+    "refSerialize": "687c1488657a546c3ae8ef55e87a784f"
+  },
+  {
+    "ref": "ddf8c0f3-ac86-44b4-beed-d205c847a451",
+    "keyword": null,
+    "answer": "Procesando página 1 de 2...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "36816560328782",
+    "refSerialize": "49a41aef5e052c64ed638edaa88734cd"
+  },
+  {
+    "ref": "ec3ff38b-4bf8-48cb-9a66-f11afb23b362",
+    "keyword": null,
+    "answer": "Procesando página 2 de 2...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "36816560328782",
+    "refSerialize": "fbbde03813b9ba459f1e34f4eb5e6f42"
+  },
+  {
+    "ref": "91013d19-a1a3-4f17-90d2-6931f948379f",
+    "keyword": null,
+    "answer": "Extracción completada. Se encontraron *46* medicamentos en 2 página(s).",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "36816560328782",
+    "refSerialize": "5371a0c181c6e6d919842720067a7c31"
+  },
+  {
+    "ref": "ans_eb1ed4a2-e043-4cab-8a0c-f66389dfe780",
+    "keyword": "key_4e28b87c-4f8e-441c-b05b-1fde63ec7302",
+    "answer": "¿Deseas comparar precios entre proveedores?\n\n*1.* Sí, comparar precios\n*2.* No, solo generar Excel de extracción\n\n_Escribe 1 o 2_",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "00b74ebba453f5151b7bee2b016829da",
+    "from": "36816560328782"
+  },
+  {
+    "ref": "8d8e97be-0f26-49a8-a3fc-fdf11a3d4004",
+    "keyword": "00b74ebba453f5151b7bee2b016829da",
     "answer": "1",
     "options": {},
     "from": "36816560328782",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_3e6dccd3-5f5e-4f50-835a-5b013f723559",
-    "keyword": "key_c6ab5c64-36b4-445e-bdcd-d2949705119f",
-    "answer": "📋 *GENERAR COTIZACION*\n\n📎 Envia tu archivo (Excel, PDF o Imagen) con el listado de medicamentos",
+    "ref": "66ece567-1720-4e23-90e4-00a876060168",
+    "keyword": null,
+    "answer": "Comparando precios con proveedores...",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": false
+      "delay": 0
     },
-    "refSerialize": "8da1673df1d2e637f380035d35f46296",
-    "from": "36816560328782"
-  },
-  {
-    "ref": "b106832d-4396-45ae-b166-336e7371370b",
-    "keyword": "8da1673df1d2e637f380035d35f46296",
-    "answer": "_event_document__8581af6b-f1dc-420a-a5f9-101e9fc6aa8d",
-    "options": {},
     "from": "36816560328782",
-    "refSerialize": "a978e564ebfbe69250104d59f45c1b08"
+    "refSerialize": "e6a15122a66d44189fb0bd6790dc4fb2"
   },
   {
-    "ref": "ans_4f209fe7-9f69-4f9a-ac05-e5a7e901ce57",
-    "keyword": "key_8be0fc0a-0fc9-400d-b6de-e017c50fcc51",
+    "ref": "150f3dbb-e350-4d16-a27a-4b90b1117f31",
+    "keyword": null,
+    "answer": "Listo. Excel generado con comparación de precios.\n\nEnvía otro archivo para continuar.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "36816560328782",
+    "refSerialize": "e4be390785e8791ef1e31c6c2eb1a893"
+  },
+  {
+    "ref": "ans_ad912336-e35e-4afb-a607-965e802b52d8",
+    "keyword": "key_c18fd64a-d96a-41cf-ad48-b7bad4950ee9",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -179,167 +187,20 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "16aa4512bb5efc0818e8b73a875f9c75",
-    "from": "36816560328782"
+    "refSerialize": "8f3a1918ec590dce330cc95e494e06c7",
+    "from": "151243146133509"
   },
   {
-    "ref": "06507610-a84c-4b07-a3d8-eea49e88d106",
-    "keyword": null,
-    "answer": "📤 Archivo recibido, procesando...",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "36816560328782",
-    "refSerialize": "24199a4685bc7fabb381a275a7a8bca0"
-  },
-  {
-    "ref": "bd827490-9533-4eaa-a597-fc5e013a42c8",
-    "keyword": null,
-    "answer": "⏳ Extrayendo medicamentos...",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "36816560328782",
-    "refSerialize": "234799d5314166abf54c88c30987372d"
-  },
-  {
-    "ref": "8b85e227-8273-4d3d-9c6b-5d58705dd8e4",
-    "keyword": "16aa4512bb5efc0818e8b73a875f9c75",
-    "answer": "Hola",
+    "ref": "56d5c229-d704-4768-8f54-c08c08e0b764",
+    "keyword": "8f3a1918ec590dce330cc95e494e06c7",
+    "answer": "_event_media__1b57e680-f5f5-4f89-a4d6-c73a5c4c8a31",
     "options": {},
-    "from": "36816560328782",
-    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+    "from": "151243146133509",
+    "refSerialize": "a15d3f30222a0a5d9f422ac80c019d39"
   },
   {
-    "ref": "ans_4204e436-608c-4f26-81cf-9546174e6930",
-    "keyword": "key_cec2d5af-9041-4a0e-8d3a-d7ee0f076d8f",
-    "answer": "👋 *Hola! Bienvenido a nuestro servicio*",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "7b9cec05171e89e248c8179916bb5b7c",
-    "from": "36816560328782"
-  },
-  {
-    "ref": "ans_cf769d18-c784-434d-90c1-7a8bcead00b5",
-    "keyword": "ans_4204e436-608c-4f26-81cf-9546174e6930",
-    "answer": "Por favor selecciona una opcion:\n\n*1.* 📋 Generar cotizaciones\n*2.* 🛒 Consultar productos\n\n_Escribe el numero de la opcion que deseas_",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [
-        {
-          "ref": "key_c6ab5c64-36b4-445e-bdcd-d2949705119f",
-          "keyword": [
-            "1",
-            "cotizacion",
-            "cotizaciones",
-            "cotizar"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "3530de872562ee77ea8afdde6895ff96"
-        },
-        {
-          "ref": "ans_3e6dccd3-5f5e-4f50-835a-5b013f723559",
-          "keyword": "key_c6ab5c64-36b4-445e-bdcd-d2949705119f",
-          "answer": "📋 *GENERAR COTIZACION*\n\n📎 Envia tu archivo (Excel, PDF o Imagen) con el listado de medicamentos",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "8da1673df1d2e637f380035d35f46296"
-        },
-        {
-          "ref": "key_69a53881-a3da-415a-8693-c62618a32ed4",
-          "keyword": [
-            "2",
-            "productos",
-            "producto",
-            "catalogo"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "792cfab522c889fc0fc86412ca0176b4"
-        },
-        {
-          "ref": "ans_f3a8dc25-3b14-47ab-9611-ac593450699b",
-          "keyword": "key_69a53881-a3da-415a-8693-c62618a32ed4",
-          "answer": "🛒 *CONSULTA DE PRODUCTOS*",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "46f6e915313cacf321b3c33a5230b395"
-        },
-        {
-          "ref": "ans_3c569693-c35c-4607-9fc4-27f1adc0ec10",
-          "keyword": "ans_f3a8dc25-3b14-47ab-9611-ac593450699b",
-          "answer": "Estos son nuestros productos disponibles:\n\n📦 *Categoria A*\n   - Producto 1 - $100\n   - Producto 2 - $150\n   - Producto 3 - $200\n\n📦 *Categoria B*\n   - Producto 4 - $250\n   - Producto 5 - $300\n   - Producto 6 - $350\n\n📦 *Categoria C*\n   - Producto 7 - $400\n   - Producto 8 - $450\n   - Producto 9 - $500\n\n---\nEscribe el *nombre del producto* para mas informacion\no escribe *hola* para volver al menu principal.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "5c839d5a106e24e0866854a4565bfcb7"
-        }
-      ],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "6f3c399080a1c11080594a1553dd7724",
-    "from": "36816560328782"
-  },
-  {
-    "ref": "ans_4f209fe7-9f69-4f9a-ac05-e5a7e901ce57",
-    "keyword": "key_8be0fc0a-0fc9-400d-b6de-e017c50fcc51",
+    "ref": "ans_ad912336-e35e-4afb-a607-965e802b52d8",
+    "keyword": "key_c18fd64a-d96a-41cf-ad48-b7bad4950ee9",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -353,46 +214,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "16aa4512bb5efc0818e8b73a875f9c75",
-    "from": "246140431773764"
+    "refSerialize": "8f3a1918ec590dce330cc95e494e06c7",
+    "from": "151243146133509"
   },
   {
-    "ref": "1144b144-ac66-44ca-bd3b-c4ad94901d88",
-    "keyword": null,
-    "answer": "📤 Archivo recibido, procesando...",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "246140431773764",
-    "refSerialize": "24199a4685bc7fabb381a275a7a8bca0"
-  },
-  {
-    "ref": "b6fa5037-422e-4fc7-a028-15bfcb4b07f7",
-    "keyword": null,
-    "answer": "⏳ Extrayendo medicamentos...",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "246140431773764",
-    "refSerialize": "234799d5314166abf54c88c30987372d"
-  },
-  {
-    "ref": "5c22ddd3-8e70-486d-b62d-03b88af0ab4c",
-    "keyword": "16aa4512bb5efc0818e8b73a875f9c75",
-    "answer": "_event_document__b6a6bec5-a18b-40bd-9a6d-a744be31fe3e",
-    "options": {},
-    "from": "246140431773764",
-    "refSerialize": "d04c1f8865e056b8cfd37e1e953f5bc1"
-  },
-  {
-    "ref": "ans_4f209fe7-9f69-4f9a-ac05-e5a7e901ce57",
-    "keyword": "key_8be0fc0a-0fc9-400d-b6de-e017c50fcc51",
+    "ref": "ans_ad912336-e35e-4afb-a607-965e802b52d8",
+    "keyword": "key_c18fd64a-d96a-41cf-ad48-b7bad4950ee9",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -406,33 +233,269 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "16aa4512bb5efc0818e8b73a875f9c75",
-    "from": "246140431773764"
+    "refSerialize": "8f3a1918ec590dce330cc95e494e06c7",
+    "from": "151243146133509"
   },
   {
-    "ref": "714ca958-7f70-442d-a977-97e7e83e3157",
+    "ref": "145b56e9-a69e-4b15-a00d-5987f66fea00",
     "keyword": null,
-    "answer": "📤 Archivo recibido, procesando...",
+    "answer": "Procesando imagen...",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "246140431773764",
-    "refSerialize": "24199a4685bc7fabb381a275a7a8bca0"
+    "from": "151243146133509",
+    "refSerialize": "43ab96c56957dcea586d2e22537f6bdb"
   },
   {
-    "ref": "5f4903a0-82da-454a-bc07-040bad71f519",
+    "ref": "0415d85d-5108-4d57-95ed-9df67d8f3488",
     "keyword": null,
-    "answer": "⏳ Extrayendo medicamentos...",
+    "answer": "Procesando imagen...",
     "options": {
       "media": null,
       "buttons": [],
       "capture": false,
       "delay": 0
     },
-    "from": "246140431773764",
-    "refSerialize": "234799d5314166abf54c88c30987372d"
+    "from": "151243146133509",
+    "refSerialize": "43ab96c56957dcea586d2e22537f6bdb"
+  },
+  {
+    "ref": "df79dcc9-f34c-42d2-8da4-9ba6492299a3",
+    "keyword": null,
+    "answer": "Extrayendo medicamentos con IA...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "10be435a43e7518e594c2924088b264f"
+  },
+  {
+    "ref": "4082ee0f-7275-4270-8b83-9a756c31eaab",
+    "keyword": null,
+    "answer": "Extrayendo medicamentos con IA...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "10be435a43e7518e594c2924088b264f"
+  },
+  {
+    "ref": "8d8b1444-609c-4d00-a790-ad652715ea59",
+    "keyword": "8f3a1918ec590dce330cc95e494e06c7",
+    "answer": "_event_media__861c9ac8-1aba-4f32-8414-3430ffe54f6c",
+    "options": {},
+    "from": "151243146133509",
+    "refSerialize": "baecd9e190b6bee63bee55e2fc04ab51"
+  },
+  {
+    "ref": "ans_ad912336-e35e-4afb-a607-965e802b52d8",
+    "keyword": "key_c18fd64a-d96a-41cf-ad48-b7bad4950ee9",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8f3a1918ec590dce330cc95e494e06c7",
+    "from": "151243146133509"
+  },
+  {
+    "ref": "ans_ad912336-e35e-4afb-a607-965e802b52d8",
+    "keyword": "key_c18fd64a-d96a-41cf-ad48-b7bad4950ee9",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "8f3a1918ec590dce330cc95e494e06c7",
+    "from": "151243146133509"
+  },
+  {
+    "ref": "a49849a6-e657-4427-9add-f1e834c21f74",
+    "keyword": null,
+    "answer": "Procesando imagen...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "43ab96c56957dcea586d2e22537f6bdb"
+  },
+  {
+    "ref": "1dcc993e-4098-4952-a05c-b88f583cc69d",
+    "keyword": null,
+    "answer": "Extrayendo medicamentos con IA...",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "10be435a43e7518e594c2924088b264f"
+  },
+  {
+    "ref": "f8b14c63-f28c-4aef-8272-1f266d790a69",
+    "keyword": null,
+    "answer": "Se encontraron *29* medicamentos.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "dc874821f7aa0c92d8f9f2366035676a"
+  },
+  {
+    "ref": "ans_eb1ed4a2-e043-4cab-8a0c-f66389dfe780",
+    "keyword": "key_4e28b87c-4f8e-441c-b05b-1fde63ec7302",
+    "answer": "¿Deseas comparar precios entre proveedores?\n\n*1.* Sí, comparar precios\n*2.* No, solo generar Excel de extracción\n\n_Escribe 1 o 2_",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "00b74ebba453f5151b7bee2b016829da",
+    "from": "151243146133509"
+  },
+  {
+    "ref": "00931409-f9dc-467e-a0a5-b84ab33ea351",
+    "keyword": "00b74ebba453f5151b7bee2b016829da",
+    "answer": "2",
+    "options": {},
+    "from": "151243146133509",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "0518891e-bf76-453f-b622-78ff0757e09a",
+    "keyword": null,
+    "answer": "Listo. Envía otro archivo para continuar.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "46b0f8885c0db921f884dcf6b3f3b2fd"
+  },
+  {
+    "ref": "93525651-6a2d-4e0f-b94d-0188dd8609d1",
+    "keyword": null,
+    "answer": "Se encontraron *11* medicamentos.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "f06528da68063119e17bcef885bd5ad2"
+  },
+  {
+    "ref": "ans_eb1ed4a2-e043-4cab-8a0c-f66389dfe780",
+    "keyword": "key_4e28b87c-4f8e-441c-b05b-1fde63ec7302",
+    "answer": "¿Deseas comparar precios entre proveedores?\n\n*1.* Sí, comparar precios\n*2.* No, solo generar Excel de extracción\n\n_Escribe 1 o 2_",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "00b74ebba453f5151b7bee2b016829da",
+    "from": "151243146133509"
+  },
+  {
+    "ref": "48058dfe-3c37-4406-a153-c84e1f9817c0",
+    "keyword": "00b74ebba453f5151b7bee2b016829da",
+    "answer": "2",
+    "options": {},
+    "from": "151243146133509",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "dddd30af-c7fa-4fdd-93b5-9f8f929a0502",
+    "keyword": null,
+    "answer": "Listo. Envía otro archivo para continuar.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "46b0f8885c0db921f884dcf6b3f3b2fd"
+  },
+  {
+    "ref": "d821554d-e0c6-4b04-8ee2-797c1687e3cc",
+    "keyword": null,
+    "answer": "Se encontraron *29* medicamentos.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "151243146133509",
+    "refSerialize": "dc874821f7aa0c92d8f9f2366035676a"
+  },
+  {
+    "ref": "ans_eb1ed4a2-e043-4cab-8a0c-f66389dfe780",
+    "keyword": "key_4e28b87c-4f8e-441c-b05b-1fde63ec7302",
+    "answer": "¿Deseas comparar precios entre proveedores?\n\n*1.* Sí, comparar precios\n*2.* No, solo generar Excel de extracción\n\n_Escribe 1 o 2_",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "00b74ebba453f5151b7bee2b016829da",
+    "from": "151243146133509"
   }
 ]

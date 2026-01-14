@@ -38,3 +38,11 @@ build/
 
 # Coverage
 coverage/
+
+# AI Framework runtime files (auto-added)
+/.claude/
+/.specify/
+/CLAUDE.md
+/.playwright-mcp/
+/hooks/*.db
+/hooks/__pycache__/
